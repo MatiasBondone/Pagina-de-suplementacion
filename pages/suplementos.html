@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--LINK CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/style.css">
+
+    <!--LINK SCSS-->
+    <link rel="stylesheet" href="../scss/style.scss">
 
     <!--LINK FUENTES-->
 
@@ -48,115 +52,147 @@
     </div>
 
     <nav>
-        <a class="menu" href="suplementos.html">Suplementos</a>
-        <a class="menu" href="">Como Comprar</a>
-        <a class="titulo" href="index.html">mysupplements.com.ar</a>
-        <a class="menu" href="">Nosotros</a>
-        <a class="menu" href="">Carrito</a>
+        <ul>
+            <li>
+                <a class="menu" href="suplementos.html">Suplementos</a>
+            </li>
+            <li>
+                <a class="menu" href="../index.html#nosotros">Nosotros</a>
+            </li>
+            <li>
+                <a class="titulo" href="../index.html">mysupplements.com.ar</a>
+            </li>
+            <li>
+                <a class="menu" href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart"
+                        width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                    <a class="menu" href="carrito.html">Carrito</a>
+                </div>
+            </li>
+        </ul>
     </nav>
-
 </header>
 
-<section class="grid-container">
+<body>
 
-    <section class="filtros">
-        <h2> Suplementos deportivos</h2>
-        <p class="resultados">800 resultados</p>
-        <div class="filtros-envio">
-            <div class="envio-full">
-                <button type="submit"><label for=""> Llega mañana</label></button>
-            </div>
-            <div class="envio-full">
-                <button type="submit"><label for=""> Envio gratis</label></button>
-            </div>
-        </div>
-        <h3>Marca</h3>
-        <ul>
-            <li>ENA</li>
-            <li>Star nutrition</li>
-            <li>Xtrenght nutrition</li>
-        </ul>
-        <h3>Precio</h3>
-        <ul>
-            <li>Hasta $15.000</li>
-            <li>$15.000 a $35.000</li>
-            <li>Mas de $35.000</li>
-        </ul>
-    </section>
+    <section class="grid-container">
 
-    <section class="shop">
-        <section class="ventas">
-            <img src="../images/Star-Nutrition-Whey-Protein.webp" alt="">
-            <div>
-                <h3>Suplemento En Polvo Star Nutrition Whey Protein</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
-                <div class="container-envio">
-                    <p class="envio">Llega mañana</p>
+        <section class="filtros">
+            <h2> Suplementos deportivos</h2>
+            <p class="resultados">800 resultados</p>
+            <div class="filtros-envio">
+                <div class="envio-full">
+                    <button type="submit" class="button-llega">Llega mañana</button>
+                </div>
+                <div class="envio-full">
+                    <button type="submit" class="button-envio">Envio gratis</button>
+                </div>
+            </div>
+            <h3>Marca</h3>
+            <ul>
+                <li>ENA</li>
+                <li>Star nutrition</li>
+                <li>Xtrenght nutrition</li>
+            </ul>
+            <h3>Precio</h3>
+            <ul>
+                <li>Hasta $15.000</li>
+                <li>$15.000 a $35.000</li>
+                <li>Mas de $35.000</li>
+            </ul>
+        </section>
 
-                </div>
-            </div>
-        </section>
-        <section class="ventas">
-            <img src="../images/Star-Nutrition-Creatina.webp" alt="">
-            <div>
-                <h3>Suplemento en polvo Star Nutrition Creatina</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
-                <div class="container-envio">
-                    <p class="envio">Llega mañana</p>
-                </div>
-            </div>
-        </section>
-        <section class="ventas">
-            <img src="../images/ENA-Sport-True-Made-Whey-Protein.webp" alt="">
-            <div>
-                <h3>Suplemento en polvo ENA Sport True Made Whey Protein</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
-                <div class="container-envio">
-                    <p class="envio">Llega mañana</p>
-                </div>
-            </div>
-        </section>
-        <section class="ventas">
-            <img src="../images/Xtrenght-Nutrition-Advanced-Whey-Protein.jpg" alt="" class="xtrenght">
-            <div>
-                <h3>Suplemento en polvo Xtrenght Nutrition Advanced Whey Protein</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
-                <div class="container-envio">
-                    <p class="envio">Llega mañana</p>
-                </div>
-            </div>
-        </section>
-        <section class="ventas">
-            <img src="../images/Xtrenght-Nutrition-Creatina.jpg" alt="" class="xtrenght">
-            <div>
-                <h3>Suplemento En Polvo Xtrenght Nutrition Creatina</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
+        <section class="shop">
+            <section class="ventas">
+                <img src="../images/Star-Nutrition-Whey-Protein.webp" alt="">
                 <div>
+                    <h3>Suplemento En Polvo Star Nutrition Whey Protein</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
+                    <div class="container-envio">
+                        <p class="envio">Llega mañana</p>
+
+                    </div>
+                </div>
+            </section>
+            <section class="ventas">
+                <img src="../images/Star-Nutrition-Creatina.webp" alt="">
+                <div>
+                    <h3>Suplemento en polvo Star Nutrition Creatina</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
                     <div class="container-envio">
                         <p class="envio">Llega mañana</p>
                     </div>
                 </div>
-        </section>
-        <section class="ventas">
-            <img src="../images/Ena Sport Cafeina.webp" alt="">
-            <div>
-                <h3>Ena Sport Cafeina</h3>
-                <p class="last-price">$30.000</p>
-                <p class="new-price">$23.000</p>
-                <div class="container-envio">
-                    <p class="envio">Llega mañana</p>
+            </section>
+            <section class="ventas">
+                <img src="../images/ENA-Sport-True-Made-Whey-Protein.webp" alt="">
+                <div>
+                    <h3>Suplemento en polvo ENA Sport True Made Whey Protein</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
+                    <div class="container-envio">
+                        <p class="envio">Llega mañana</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="ventas">
+                <img src="../images/Xtrenght-Nutrition-Advanced-Whey-Protein.jpg" alt="" class="xtrenght">
+                <div>
+                    <h3>Suplemento en polvo Xtrenght Nutrition Advanced Whey Protein</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
+                    <div class="container-envio">
+                        <p class="envio">Llega mañana</p>
+                    </div>
+                </div>
+            </section>
+            <section class="ventas">
+                <img src="../images/Xtrenght-Nutrition-Creatina.jpg" alt="" class="xtrenght">
+                <div>
+                    <h3>Suplemento En Polvo Xtrenght Nutrition Creatina</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
+                    <div>
+                        <div class="container-envio">
+                            <p class="envio">Llega mañana</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="ventas last-product">
+                <img src="../images/Ena Sport Cafeina.webp" alt="">
+                <div>
+                    <h3>Ena Sport Cafeina</h3>
+                    <p class="last-price">$30.000</p>
+                    <p class="new-price">$23.000</p>
+                    <div class="container-envio">
+                        <p class="envio">Llega mañana</p>
+                    </div>
+                </div>
+            </section>
 
+
+        </section>
 
     </section>
 
+</body>
+<section class="footer-suplementos">
+    <hr class="separation">
+    <footer>
+        <p>ⓒ Copyright Matias Bondone 2024</p>
+    </footer>
 </section>
 
 </html>

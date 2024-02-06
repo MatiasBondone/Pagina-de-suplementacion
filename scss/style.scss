@@ -1,0 +1,74 @@
+$color-boton: rgb(255, 255, 255);
+$background-boton: rgb(3, 99, 177);
+$font-boton: 2rem;
+$radius: 1rem;
+
+.body-carrito {
+    h1 {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(240, 236, 236);
+        height: 40rem;
+        width: 50%;
+        margin-inline: 25%;
+        margin-bottom: 15rem;
+        border-radius: $radius;
+
+        p {
+            font-size: 1.8rem;
+        }
+
+        button {
+            color: $color-boton;
+            background-color: $background-boton;
+            font-size: $font-boton;
+            border-radius: $radius;
+            border: none;
+            padding: 1.3rem;
+            font-weight: bold;
+        }
+
+
+    }
+}
+
+@mixin boton($backgroud-boton, $border-boton) {
+
+    background-color: $backgroud-boton;
+    border: $border-boton;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
+
+
+.button-llega {
+    @include boton(rgb(202, 200, 200), 1px black solid);
+
+}
+
+.button-envio {
+    @include boton(rgb(202, 200, 200), 1px black solid);
+}
+
+.button-llega:hover {
+    @include boton(rgb(77, 110, 221), 1px black solid);
+}
+
+.button-envio:hover {
+    @include boton(rgb(74, 175, 83), 1px black solid);
+}
+
+
