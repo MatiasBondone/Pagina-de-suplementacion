@@ -7,6 +7,7 @@
 
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!--LINK FUENTES-->
 
@@ -32,54 +33,56 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>PROYECTO FINAL</title>
 </head>
-<header>
 
-    <div class="info">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="27"
-            height="27" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-            <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-            <path d="M3 9l4 0" />
-        </svg>
-        Envió gratis a partir de los $30.000
-    </div>
+<body>
 
-    <nav>
-        <ul>
-            <li>
-                <a class="menu" href="suplementos.html">Suplementos</a>
-            </li>
-            <li>
-                <a class="menu" href="../index.html#nosotros">Nosotros</a>
-            </li>
-            <li>
-                <a class="titulo" href="../index.html">mysupplements.com.ar</a>
-            </li>
-            <li>
-                <a class="menu" href="contacto.html">Contacto</a>
-            </li>
-            <li>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart"
-                        width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                        <path d="M17 17h-11v-14h-2" />
-                        <path d="M6 5l14 1l-1 7h-13" />
-                    </svg>
-                    <a class="menu" href="carrito.html">Carrito</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
+    <header>
 
-    <body>
         <main>
+            <div class="info">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="27"
+                    height="27" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                    <path d="M3 9l4 0" />
+                </svg>
+                Envió gratis a partir de los $30.000
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a class="menu" href="suplementos.html">Suplementos</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="../index.html#nosotros">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="titulo" href="../index.html">mysupplements.com.ar</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart"
+                                width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                <path d="M17 17h-11v-14h-2" />
+                                <path d="M6 5l14 1l-1 7h-13" />
+                            </svg>
+                            <a class="menu" href="carrito.html">Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
             <h1 class="title-contact">CONTACTO</h1>
             <div>
                 <div class='redes1 contenedor nav-con'>
@@ -169,23 +172,23 @@
 
                         <div class="contenedor-campos">
                             <div class="campo">
-                                <label>Nombre</label>
-                                <input class='input-text' type="text" placeholder="Nombre">
+                                <label for="nombre">Nombre</label>
+                                <input class='input-text' type="text" placeholder="Nombre" id="nombre">
                             </div>
 
                             <div class="campo">
-                                <label>Telefono</label>
-                                <input class='input-text' type="tel" placeholder="Tu Telefono">
+                                <label for="telefono">Telefono</label>
+                                <input class='input-text' type="tel" placeholder="Tu Telefono" id="telefono">
                             </div>
 
                             <div class="campo">
-                                <label>Correo</label>
-                                <input class='input-text' type="email" placeholder="Tu Email">
+                                <label for="correo">Correo</label>
+                                <input class='input-text' type="email" placeholder="Tu Email" id="correo">
                             </div>
 
                             <div class="campo">
-                                <label>Mensaje</label>
-                                <textarea class='input-text'></textarea>
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class='input-text' id="mensaje"></textarea>
                             </div>
                         </div>
 
@@ -197,11 +200,11 @@
                 </form>
             </section>
         </main>
-    </body>
 
-    <hr class="separation">
-    <footer>
-        <p>ⓒ Copyright Matias Bondone 2024</p>
-    </footer>
+        <hr class="separation">
+        <footer>
+            <p>ⓒ Copyright Matias Bondone 2024</p>
+        </footer>
+</body>
 
 </html>
