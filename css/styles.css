@@ -8,7 +8,6 @@ html {
 
 nav {
     display: flex;
-    background-color: rgb(3, 99, 177);
     height: 8rem;
 }
 
@@ -23,19 +22,24 @@ nav ul {
     width: 100%;
 }
 
-.menu {
-    color: white;
-    font-family: "Oswald", sans-serif;
-    font-size: 2.2rem;
-    text-decoration: none;
-
+.nav-title a {
+    font-size: 3.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.titulo {
-    color: #F0C300;
-    font-family: "Quicksand", sans-serif;
-    font-size: 3.5rem;
-    text-decoration: none;
+.nav-item {
+    font-size: 2.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-body-tertiary {
+    z-index: 1040;
+    background-color: #4381C1;
+}
+
+.navbar {
+    background-color: rgb(237, 239, 241); 
+    z-index: 1040;
 }
 
 .icon-tabler-shopping-cart {
@@ -52,10 +56,6 @@ nav ul {
     font-size: 1.4rem;
 }
 
-/* MENU HAMBURGUESA */
-.abrir-menu {
-    display: none;
-}
 
 body {
     margin: 0;
@@ -400,78 +400,71 @@ label {
     border: none;
 }
 
-.navbar-toggler {
-    display: none;
-}
-
-.navbar-brand {
-    display: none;
-}
-
-.bg-body-tertiary {
-    opacity: 0;
-}
-
 
 /* MOBILE */
 @media only screen and (max-width: 500px) {
 
-    /* PAGINA PRINCIPAL*/
+    /* NAV BAR*/
+    .info {
+        display: none;
+    }
 
+    .menu-icon {
+        background-image: url(../images/Menu-Hamburguesa.png);
+        background-color: #edf0f3;
+        width: 35px;
+        height: 35px;
+        border: none;
+    }
+
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+        border: none;
+    }
+
+
+    button:hover {
+        background-color: white;
+    }
+
+    .nav-title a {
+        font-size: 2.7rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .nav-item {
+        font-size: 1.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .navbar-toggler{
+        z-index: 1050;
+        margin-left: 1rem;
+    }
+    
+    nav ul {
+        align-items: start;
+    }
+    
+    .navbar-collapse {
+        background-color: rgb(237, 239, 241);
+        padding: 1rem;
+        border-bottom: 0.2rem solid black;
+        
+    }
+    
+    .container-fluid {
+        --bs-gutter-x: 0 !important;
+    }
+    
     .icon-tabler-shopping-cart {
         margin-top: -5px;
         width: 1.5rem;
         height: 1.5rem;
     }
-
-    /* MENU HAMBURGUESA */
-
-    /* header {
-        margin-top: 4rem;
-    }
-    .info {
-        display: none;
-    }
     
-    .container-fluid{
-        background-color: rgb(3, 99, 177);
-        margin: 0;
-        padding: .7rem;
-    }
-    .navbar-toggler {
-        display: block;
-    }
-
-    .navbar-brand {
-        display: block;
-        padding: 0;
-        font-size: 2.5rem; 
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .nav-mobile {
-        opacity: 100%;
-        margin: 0;
-        padding: 10rem;
-    }
-
-    .nav-text {
-        display: none;
-    }
-    
-    .offcanvas-title {
-        font-size: 3rem;
-    }
-
-    .btn-close {
-        font-size: 2rem;
-    }
-
-    .nav-item {
-        font-size: 3rem;
-    } */
-
-
+    /* PAGINA PRINCIPAL*/
     .carousel {
         margin-bottom: 1rem;
     }
@@ -701,7 +694,7 @@ label {
 
 /* TABLET */
 
-@media only screen and (min-width: 501px) and (max-width:960px) {
+@media only screen and (min-width: 501px) and (max-width:999px) {
 
     /* NAV BAR */
     
@@ -906,7 +899,7 @@ label {
 
 /* COMPUTADORA */
 
-@media only screen and (min-width: 961px) and (max-width: 1350px) { 
+@media only screen and (min-width: 1000px) and (max-width: 1350px) { 
 
         /* PAGINA PRINCIPAL*/
 
