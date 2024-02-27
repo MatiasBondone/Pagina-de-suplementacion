@@ -43,32 +43,32 @@ $radius: 1rem;
     }
 }
 
-@mixin boton($backgroud-boton, $border-boton) {
+@mixin boton($backgroud-boton, $border-boton, $font-size, $margin-left) {
 
     background-color: $backgroud-boton;
     border: $border-boton;
     margin-bottom: 1.5rem;
-    margin-left: 2rem;
+    margin-left: $margin-left;
     border-radius: 0.5rem;
-    font-size: 2rem;
+    font-size: $font-size;
 }
 
 
 .button-llega {
-    @include boton(rgb(202, 200, 200), 1px black solid);
+    @include boton(rgb(202, 200, 200), 1px black solid, 2rem, 2rem);
 
 }
 
 .button-envio {
-    @include boton(rgb(202, 200, 200), 1px black solid);
+    @include boton(rgb(202, 200, 200), 1px black solid, 2rem, 2rem);
 }
 
 .button-llega:hover {
-    @include boton(rgb(77, 110, 221), 1px black solid);
+    @include boton(rgb(77, 110, 221), 1px black solid, 2rem, 2rem);
 }
 
 .button-envio:hover {
-    @include boton(rgb(74, 175, 83), 1px black solid);
+    @include boton(rgb(74, 175, 83), 1px black solid, 2rem, 2rem);
 }
 
 @media only screen and (max-width:500px) {
@@ -83,7 +83,11 @@ $radius: 1rem;
 }
 
 .button-envio:hover {
-    background-color: none;
+    @include boton(rgb(74, 175, 83), 1px black solid, 1rem, 0);
+}
+
+.button-llega:hover {
+    @include boton(rgb(77, 110, 221), 1px black solid, 1rem, 0);
 }
 
 }
