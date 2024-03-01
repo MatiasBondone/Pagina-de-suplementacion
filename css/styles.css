@@ -25,11 +25,26 @@ nav ul {
 .nav-title a {
     font-size: 4.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: rgb(119, 119, 117);
+    -webkit-text-stroke-width: 2px;
 }
 
-.nav-item {
+.nav-title a:hover {
+    color: #5a5959;
+    
+}
+
+.nav-item a {
     font-size: 3.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: rgb(119, 119, 117);
+    -webkit-text-stroke-width: 1px;
+}
+
+.nav-item a:hover {
+    color: #5a5959;
 }
 
 .bg-body-tertiary {
@@ -38,8 +53,9 @@ nav ul {
 }
 
 .navbar {
-    background-color: rgb(237, 239, 241); 
+    background-color: #171717; 
     z-index: 1040;
+    border-bottom: 0.2rem solid white;;
 }
 
 .icon-tabler-shopping-cart {
@@ -431,7 +447,26 @@ label {
     grid-template-columns: 50% 50%;
 }
 
-.imagen-star {
+.imagen-proteina {
+    margin-bottom: 20rem;
+    margin-inline: 30%;
+    height: 60rem;
+    width: 38rem;
+}
+
+.imagen-star-creatina {
+    margin-bottom: 20rem;
+    margin-inline: 30%;
+}
+
+.imagen-xtrenght-creatina {
+    margin-bottom: 20rem;
+    margin-inline: 38%;
+    height: 45rem;
+    width: 23rem;
+}
+
+.imagen-cafeina {
     margin-bottom: 20rem;
     margin-inline: 30%;
 }
@@ -472,11 +507,10 @@ label {
     flex-direction: row;
     justify-content: center;
     margin-left: 60%;
-    margin-bottom:;
 }
 
 .section-productos {
-    background-color: #5c5b5b;
+    background-color: #171717;
     padding: 10rem;
     margin-bottom: 5rem;
 }
@@ -497,21 +531,22 @@ label {
 
 .price {
     margin-right: 4rem;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .old-price {
     color: #9fa0a0;
     text-decoration: line-through;
+    font-size: 2.3rem;
 }
 
 .precio-productos h2 {
     font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .form-productos {
@@ -527,14 +562,14 @@ label {
 }
 
 .label-sabores {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     margin-top: 5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .label-cantidad {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 1.5rem;
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -557,12 +592,16 @@ label {
 #agregar:hover {
     background-color: rgb(6, 153, 38);
 }
+
+.agregar-sin-sabor {
+    margin-top: 12rem;
+}
     
 
 .calcular-envio {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -576,33 +615,35 @@ label {
 .descripcion {
     margin-top: 7rem;
 }
+
 .descripcion h3 {
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3rem ;
 }
 
 .descripcion p {
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* MOBILE */
 @media only screen and (max-width: 500px) {
 
     /* NAV BAR*/
+
     .info {
         display: none;
     }
 
     .menu-icon {
         background-image: url(../images/Menu-Hamburguesa.png);
-        background-color: #edf0f3;
+        background-color: #5a5c5c !important;
         width: 35px;
         height: 35px;
         border: none;
     }
-
 
     .navbar-toggler:focus {
         box-shadow: none !important;
@@ -611,17 +652,18 @@ label {
 
 
     button:hover {
-        background-color: white;
+        background-color: rgb(116, 113, 113);
     }
 
     .nav-title a {
-        font-size: 2.7rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3.8rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
     }
     
-    .nav-item {
-        font-size: 1.8rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .nav-item a {
+        font-size: 2.8rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     
     .navbar-toggler{
@@ -633,11 +675,14 @@ label {
         align-items: start;
     }
     
+    .navbar {
+        height: 7rem;
+    }
+
     .navbar-collapse {
         background-color: rgb(237, 239, 241);
         padding: 1rem;
         border-bottom: 0.2rem solid black;
-        
     }
     
     .container-fluid {
@@ -732,7 +777,9 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
+
 
     #nosotros {
         display: flex;
@@ -833,6 +880,74 @@ label {
         margin-bottom: 0;
     }
 
+    /* PRODUCTOS*/
+
+    .main-productos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productos-relacionados {
+        display: none;
+    }
+
+    .separation-images {
+        display: none;
+    }
+
+    .imagen-proteina{ 
+        height: 38rem;
+        width: 22rem;
+        margin-bottom: 5rem;
+    }
+
+    .imagen-producto {
+        margin-top: 5rem;
+    }
+    
+    .section-productos {
+        padding: 1rem;
+    }
+
+    .precio-productos h2 {
+        font-size: 2.7rem;
+    }
+
+    .price {
+        font-size: 2.4rem;
+    }
+
+    .old-price {
+        font-size: 2.4rem;
+    }
+
+    .off {
+        font-size: 1.5rem;
+    }
+
+    .label-sabores {
+        font-size: 2.5rem;
+    }
+
+
+    .label-cantidad {
+        font-size: 2.5rem;
+    }
+
+    #agregar {
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+    }
+
+    .calcular-envio {
+        font-size: 2.5rem;
+    }
+
+    .descripcion p {
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+    }
+
     /*CONTACTO*/
 
     .title-contact{
@@ -892,6 +1007,10 @@ label {
         font-size: 1.5rem;
     
     }
+
+    .info {
+        display: none;
+    }
     
     .titulo {
         font-size: 2.3rem;
@@ -906,6 +1025,40 @@ label {
     .icon-tabler-truck-delivery {
         width: 25px;
         height: 25px;
+    }
+
+    /* MENU HAMBURGUESA*/
+
+    .menu-icon {
+        background-image: url(../images/Menu-Hamburguesa.png);
+        background-color: #5a5c5c !important;
+        width: 35px;
+        height: 35px;
+        border: none;
+        margin-left: 1rem;
+    }
+
+
+    nav ul {
+        align-items: start;
+    }
+
+    .navbar-collapse {
+        background-color: rgb(237, 239, 241);
+        padding: 1rem;
+        border-bottom: 0.2rem solid black;
+    }
+
+    .container-fluid {
+        --bs-gutter-x: 0 !important;
+    }
+
+    .nav-title a {
+        font-size: 4.3rem;
+    }
+
+    .nav-item a {
+        font-size: 3.5rem;
     }
 
     /* PAGINA PRINCIPAL*/
@@ -1024,11 +1177,11 @@ label {
         /* FILTROS */
     
         .filtros h2 {
-            font-size: 3rem;
+            font-size: 2.6rem;
         }
         
         .resultados {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-bottom: 1.5rem;
         }
         
@@ -1081,7 +1234,38 @@ label {
         .last-product {
             margin-bottom: 0;
         }
+
+        /* PRODUCTOS*/
+
+        .main-productos {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .productos-relacionados {
+            display: none;
+        }
+    
+        .separation-images {
+            display: none;
+        }
+
+        .imagen-producto {
+            margin-top: 5rem;
+        }
+
+        .imagen-proteina {
+            width: 25rem;
+            height: 40rem;
+            margin-bottom: 5rem;
+            margin-inline: 35%;
+        }
+
+        .section-productos {
+            padding: 1rem;
+        }
 }
+
 
 /* COMPUTADORA */
 
