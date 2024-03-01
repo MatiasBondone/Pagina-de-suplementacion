@@ -791,7 +791,10 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
 
+    .data p {
+        text-align: center;
     }
 
 
