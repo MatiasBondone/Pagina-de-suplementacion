@@ -11,7 +11,7 @@ nav {
     height: 8rem;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
 }
 
@@ -32,7 +32,7 @@ nav ul {
 
 .nav-title a:hover {
     color: #5a5959;
-    
+
 }
 
 .nav-item a {
@@ -53,9 +53,10 @@ nav ul {
 }
 
 .navbar {
-    background-color: #171717; 
+    background-color: #171717;
     z-index: 1040;
-    border-bottom: 0.2rem solid white;;
+    border-bottom: 0.2rem solid white;
+    ;
 }
 
 .icon-tabler-shopping-cart {
@@ -77,6 +78,7 @@ body {
     margin: 0;
     background-color: rgb(26, 3, 3);
 }
+
 .carousel {
     margin-bottom: 5rem;
 }
@@ -109,7 +111,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
+
 }
 
 .ayuda h3 {
@@ -162,6 +164,7 @@ h3 a {
     background-color: rgb(255, 255, 255);
     margin-bottom: 5rem;
 }
+
 .shop h3 {
     font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
@@ -217,9 +220,9 @@ h3 a {
 .filtros li {
     font-size: 1.5rem;
     list-style-type: none;
-    padding: 0.7rem 0 ;
+    padding: 0.7rem 0;
     cursor: pointer;
-    
+
 }
 
 button:hover {
@@ -232,7 +235,7 @@ li:hover {
 
 .ventas {
     display: grid;
-    grid-template-columns:  30% 70%;
+    grid-template-columns: 30% 70%;
     border-bottom: 1px rgb(230, 228, 228) solid;
     margin-bottom: 5rem;
 }
@@ -283,7 +286,7 @@ li:hover {
     align-items: center;
     font-size: 2.3rem;
     padding-inline: 30rem;
-    margin-top: 3.5rem ;
+    margin-top: 3.5rem;
     margin-bottom: 8rem;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -341,6 +344,7 @@ footer p {
     align-items: center;
     margin-top: 2rem;
 }
+
 .redes1 {
     display: flex;
     flex-direction: row;
@@ -495,6 +499,7 @@ label {
     width: 100%;
 }
 
+
 .images-relacionados img {
     width: 20rem;
     height: 30rem;
@@ -596,7 +601,7 @@ label {
 .agregar-sin-sabor {
     margin-top: 12rem;
 }
-    
+
 
 .calcular-envio {
     display: flex;
@@ -620,7 +625,7 @@ label {
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 255, 255);
-    margin-bottom: 3rem ;
+    margin-bottom: 3rem;
 }
 
 .descripcion p {
@@ -662,25 +667,25 @@ label {
         -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 0;
     }
-    
+
     .nav-item a {
         font-size: 2.8rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: black;
         -webkit-text-stroke-color: rgb(0, 0, 0);
         -webkit-text-stroke-width: 0;
-        
+
     }
-    
-    .navbar-toggler{
+
+    .navbar-toggler {
         z-index: 1050;
         margin-left: 1rem;
     }
-    
+
     nav ul {
         align-items: start;
     }
-    
+
     .navbar {
         height: 7rem;
     }
@@ -690,39 +695,41 @@ label {
         padding: 1rem;
         border-bottom: 0.2rem solid black;
     }
-    
+
     .container-fluid {
         --bs-gutter-x: 0 !important;
     }
-    
+
     .icon-tabler-shopping-cart {
         margin-top: -5px;
         width: 1.5rem;
         height: 1.5rem;
     }
-    
+
     /* PAGINA PRINCIPAL*/
     .carousel {
         margin-bottom: 1rem;
     }
 
-    .carousel-inner img{
+    .carousel-inner img {
         height: 30rem;
     }
-    
+
     .images {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 0;  
+        padding-bottom: 0;
     }
+
     .images img {
         width: 25rem;
         height: 35rem;
-        margin-bottom: 3rem; 
+        margin-bottom: 3rem;
     }
-    .icon-tabler-building-store{
+
+    .icon-tabler-building-store {
         width: 8rem;
         height: 8rem;
     }
@@ -736,6 +743,7 @@ label {
         width: 8rem;
         height: 8rem;
     }
+
     .metodos-de-pagos {
         display: flex;
         justify-content: center;
@@ -743,47 +751,47 @@ label {
         flex-direction: row;
         margin-bottom: 1rem;
     }
-    
+
     .items li {
         font-size: 1.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+
     .items p {
         font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+
     .ayuda {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
+
     }
-    
+
     .ayuda h3 {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.8rem;
         font-weight: bold;
     }
-    
+
     .ayuda p {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.5rem;
-        
+
     }
-    
+
     .data {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
 
@@ -803,16 +811,16 @@ label {
     nav {
         height: 4.5rem;
     }
-    
+
     .menu {
         font-size: 1.2rem;
-    
+
     }
-    
+
     .titulo {
         font-size: 1.7rem;
     }
-    
+
     .info {
         height: 2rem;
         font-size: 1rem;
@@ -829,24 +837,24 @@ label {
     .filtros h2 {
         font-size: 1.4rem;
     }
-    
+
     .resultados {
         font-size: 1.4rem;
         margin-bottom: 1.5rem;
     }
-    
+
     .envio-full button {
         margin-left: 0rem;
         font-size: 1rem;
     }
-    
+
     .filtros h3 {
         font-size: 1.7rem;
     }
-    
+
     .filtros li {
         font-size: 1.3rem;
-        padding: 0.6rem 0 ;
+        padding: 0.6rem 0;
     }
 
     /* SHOP */
@@ -858,13 +866,13 @@ label {
         margin-bottom: 5rem;
         padding-left: 3rem;
     }
-    
+
     .ventas img {
         width: 14rem;
         height: 14rem;
         padding-left: 4rem;
     }
-    
+
     .ventas .xtrenght {
         width: 17rem;
         height: 17rem;
@@ -873,11 +881,11 @@ label {
     .shop h3 {
         font-size: 2.2rem;
     }
-    
+
     .shop .new-price {
         font-size: 2rem;
     }
-    
+
     .shop p {
         font-size: 1.5rem;
     }
@@ -901,7 +909,7 @@ label {
         display: none;
     }
 
-    .imagen-proteina{ 
+    .imagen-proteina {
         height: 38rem;
         width: 22rem;
         margin-bottom: 5rem;
@@ -911,7 +919,7 @@ label {
     .imagen-producto {
         margin-top: 5rem;
     }
-    
+
     .section-productos {
         padding: 1rem;
         margin-bottom: 0;
@@ -965,15 +973,16 @@ label {
 
     /*CONTACTO*/
 
-    .title-contact{
+    .title-contact {
         font-size: 5rem;
     }
+
     .redes1 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 2rem;   
+        margin-top: 2rem;
     }
 
     .rsociales {
@@ -983,11 +992,13 @@ label {
     .redes1 h3 {
         font-size: 3.5rem;
     }
+
     .formulario {
         margin: 0.5rem;
         padding: 1rem;
         width: 95%;
     }
+
     .contenedor-campos {
         display: flex;
         flex-direction: column;
@@ -1013,30 +1024,30 @@ label {
 @media only screen and (min-width: 501px) and (max-width:999px) {
 
     /* NAV BAR */
-    
+
     nav {
         height: 9rem;
     }
-    
+
     .menu {
         font-size: 1.5rem;
-    
+
     }
 
     .info {
         display: none;
     }
-    
+
     .titulo {
         font-size: 2.3rem;
     }
 
-    
+
     .info {
         height: 3rem;
         font-size: 1.5rem;
     }
-    
+
     .icon-tabler-truck-delivery {
         width: 25px;
         height: 25px;
@@ -1093,43 +1104,46 @@ label {
         margin-bottom: 1rem;
     }
 
-    .carousel-inner img{
+    .carousel-inner img {
         height: 45rem;
     }
-    
 
-.metodos-de-pagos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 5rem;
-}
 
-.items li {
-    font-size: 3.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+    .metodos-de-pagos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 5rem;
+    }
 
-.items p {
-    font-size: 1.7rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0;  
-}
-.images img {
+    .items li {
+        font-size: 3.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .items p {
+        font-size: 1.7rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .images img {
         width: 38rem;
         height: 55rem;
-        margin-bottom: 3rem; 
+        margin-bottom: 3rem;
     }
-    .icon-tabler-building-store{
+
+    .icon-tabler-building-store {
         width: 17rem;
         height: 17rem;
     }
@@ -1143,29 +1157,29 @@ label {
         width: 17rem;
         height: 17rem;
     }
-    
+
     .ayuda {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
+
     }
-    
+
     .ayuda h3 {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 2.5rem;
         font-weight: bold;
     }
-    
+
     .ayuda p {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.8rem;
-        
+
     }
-    
+
     .data {
         display: flex;
         flex-direction: column;
@@ -1189,140 +1203,141 @@ label {
         font-size: 3rem;
     }
 
-        /* CONTAINER*/
-    
-        .grid-container {
-            padding: 1rem;
-        }
-    
-        /* FILTROS */
-    
-        .filtros h2 {
-            font-size: 2.6rem;
-        }
-        
-        .resultados {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .envio-full button {
-            font-size: 1.5rem;
-        }
-        
-        .filtros h3 {
-            font-size: 2.5rem;
-        }
-        
-        .filtros li {
-            font-size: 1.6rem;
-            padding: 0.6rem 0 ;
-        }
-    
-        /* SHOP */
-    
-        .ventas {
-            display: flex;
-            flex-direction: column;
-            border-bottom: 1px rgb(230, 228, 228) solid;
-            margin-bottom: 5rem;
-            padding-left: 3rem;
-        }
-        
-        .ventas img {
-            width: 14rem;
-            height: 17rem;
-            padding-left: 4rem;
-        }
-        
-        .ventas .xtrenght {
-            width: 17rem;
-            height: 17rem;
-        }
-    
-        .shop h3 {
-            font-size: 3rem;
-        }
-        
-        .shop .new-price {
-            font-size: 2.2rem;
-        }
-        
-        .shop p {
-            font-size: 1.7rem;
-        }
+    /* CONTAINER*/
 
-        .last-product {
-            margin-bottom: 0;
-        }
+    .grid-container {
+        padding: 1rem;
+    }
 
-        /* PRODUCTOS*/
+    /* FILTROS */
 
-        .main-productos {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .productos-relacionados {
-            display: none;
-        }
-    
-        .separation-images {
-            display: none;
-        }
+    .filtros h2 {
+        font-size: 2.6rem;
+    }
 
-        .imagen-producto {
-            margin-top: 5rem;
-        }
+    .resultados {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
 
-        .imagen-proteina {
-            width: 25rem;
-            height: 40rem;
-            margin-bottom: 5rem;
-            margin-inline: 35%;
-        }
+    .envio-full button {
+        font-size: 1.5rem;
+    }
 
-        .section-productos {
-            padding: 1rem;
-            margin-bottom: 0;
-        }
+    .filtros h3 {
+        font-size: 2.5rem;
+    }
 
-        #agregar {
-            margin-bottom: 8rem;
-            margin-top: 8%;
-            margin-left: 10%;
-            width: 80%;
-        }
+    .filtros li {
+        font-size: 1.6rem;
+        padding: 0.6rem 0;
+    }
 
-        .calcular-envio{
-            margin-left: 3rem;
-        }
+    /* SHOP */
 
-        .calcular {
-            width: 40%;
-            margin-left: 3rem;
-        }
-        .submit {
-            width: 40%;
-        }
+    .ventas {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px rgb(230, 228, 228) solid;
+        margin-bottom: 5rem;
+        padding-left: 3rem;
+    }
+
+    .ventas img {
+        width: 14rem;
+        height: 17rem;
+        padding-left: 4rem;
+    }
+
+    .ventas .xtrenght {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    .shop h3 {
+        font-size: 3rem;
+    }
+
+    .shop .new-price {
+        font-size: 2.2rem;
+    }
+
+    .shop p {
+        font-size: 1.7rem;
+    }
+
+    .last-product {
+        margin-bottom: 0;
+    }
+
+    /* PRODUCTOS*/
+
+    .main-productos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productos-relacionados {
+        display: none;
+    }
+
+    .separation-images {
+        display: none;
+    }
+
+    .imagen-producto {
+        margin-top: 5rem;
+    }
+
+    .imagen-proteina {
+        width: 25rem;
+        height: 40rem;
+        margin-bottom: 5rem;
+        margin-inline: 35%;
+    }
+
+    .section-productos {
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    #agregar {
+        margin-bottom: 8rem;
+        margin-top: 8%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .calcular-envio {
+        margin-left: 3rem;
+    }
+
+    .calcular {
+        width: 40%;
+        margin-left: 3rem;
+    }
+
+    .submit {
+        width: 40%;
+    }
 }
 
 
 /* COMPUTADORA */
 
-@media only screen and (min-width: 1000px) and (max-width: 1350px) { 
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
 
-        /* PAGINA PRINCIPAL*/
+    /* PAGINA PRINCIPAL*/
 
-        .carousel {
-            margin-bottom: 1rem;
-        }
-    
-        .carousel-inner img{
-            height: 45rem;
-        }
-        
-    
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner img {
+        height: 45rem;
+    }
+
+
     .metodos-de-pagos {
         display: flex;
         justify-content: center;
@@ -1330,276 +1345,308 @@ label {
         flex-direction: row;
         margin-bottom: 3rem;
     }
-    
+
     .items li {
         font-size: 3rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    
+
     .items p {
         font-size: 1.4rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     .images {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-bottom: 0;  
+        padding-bottom: 0;
     }
-    .images img {
-            width: 30rem;
-            height: 45rem;
-            margin-bottom: 3rem; 
-        }
-        .icon-tabler-building-store{
-            width: 13rem;
-            height: 13rem;
-        }
-    
-        .icon-tabler-building-bank {
-            width: 13rem;
-            height: 13rem;
-        }
-    
-        .icon-tabler-gift {
-            width: 13rem;
-            height: 13rem;
-        }
-        
-        .ayuda {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            
-        }
-        
-        .ayuda h3 {
-            padding-left: 3rem;
-            padding-right: 3rem;
-            font-size: 1.8rem;
-            font-weight: bold;
-        }
-        
-        .ayuda p {
-            padding-left: 3rem;
-            padding-right: 3rem;
-            font-size: 1.4rem;
-        }
-        
-        .data {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
 
-        #nosotros {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        #nosotros p {
-            padding-inline: 15rem;
-        }
+    .images img {
+        width: 30rem;
+        height: 45rem;
+        margin-bottom: 3rem;
+    }
+
+    .icon-tabler-building-store {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .icon-tabler-building-bank {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .icon-tabler-gift {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .ayuda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .ayuda h3 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .ayuda p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nosotros p {
+        padding-inline: 15rem;
+    }
 
     /* SHOP */
-    
-            .ventas img {
-                width: 12rem;
-                height: 15rem;
-                padding-left: 4rem;
-            }
-            
-            .ventas .xtrenght {
-                width: 14rem;
-                height: 18rem;
-            }
-        
-            .shop h3 {
-                font-size: 2rem;
-            }
-            
-            .shop .new-price {
-                font-size: 1.7rem;
-            }
-            
-            .shop p {
-                font-size: 1.2rem;
-            }
+
+    .ventas img {
+        width: 12rem;
+        height: 15rem;
+        padding-left: 4rem;
+    }
+
+    .ventas .xtrenght {
+        width: 14rem;
+        height: 18rem;
+    }
+
+    .shop h3 {
+        font-size: 2rem;
+    }
+
+    .shop .new-price {
+        font-size: 1.7rem;
+    }
+
+    .shop p {
+        font-size: 1.2rem;
+    }
+
+    /* PRODUCTOS*/
+
+    .section-productos {
+        padding: 3rem;
+    }
+
+    .imagen-proteina, .imagen-star-creatina, .imagen-cafeina, .imagen-xtrenght-creatina {
+        margin-left: 20%;
+    }
+
+
+    .productos-relacionados {
+        margin-left: -30rem;
+    }
+
+    .images-relacionados {
+        margin-left: 33rem;
+    }
+
+    .images-relacionados img {
+        width: 18rem;
+        height: 28rem;
+    }
+
 }
 
 /* TELEVISOR*/
 
 @media only screen and (min-width: 2500px) {
 
-        /* PAGINA PRINCIPAL*/
+    /* PAGINA PRINCIPAL*/
 
-        .carousel {
-            margin-bottom: 1rem;
-        }
-    
-        .carousel-inner img{
-            height: 45rem;
-        }
-        
-    
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner img {
+        height: 45rem;
+    }
+
+
     .items li {
         font-size: 7rem;
         padding-left: 15rem;
         padding-right: 15rem;
     }
-    
+
     .items p {
         font-size: 4rem;
         padding-left: 15rem;
         padding-right: 15rem;
     }
+
     .images {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-bottom: 0;  
+        padding-bottom: 0;
     }
+
     .images img {
-            width: 60rem;
-            height: 90rem;
-            margin-bottom: 15rem; 
-            margin-inline: 4rem;
-        }
-        .data {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-inline: 10rem;
-        }
+        width: 60rem;
+        height: 90rem;
+        margin-bottom: 15rem;
+        margin-inline: 4rem;
+    }
 
-        .icon-tabler-building-store{
-            width: 33rem;
-            height: 33rem;
-        }
-    
-        .icon-tabler-building-bank {
-            width: 33rem;
-            height: 33rem;
-        }
-    
-        .icon-tabler-gift {
-            width: 33rem;
-            height: 33rem;
-        }
-        
-        
-        .ayuda {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-        }
-        
-        .ayuda h3 {
-            padding-left: 3rem;
-            padding-right: 3rem;
-            font-size: 5rem;
-            font-weight: bold;
-        }
-        
-        .ayuda p {
-            padding-left: 3rem;
-            padding-right: 3rem;
-            font-size: 4rem;
-        }
-        
+    .data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-inline: 10rem;
+    }
 
-    
+    .icon-tabler-building-store {
+        width: 33rem;
+        height: 33rem;
+    }
+
+    .icon-tabler-building-bank {
+        width: 33rem;
+        height: 33rem;
+    }
+
+    .icon-tabler-gift {
+        width: 33rem;
+        height: 33rem;
+    }
+
+
+    .ayuda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .ayuda h3 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .ayuda p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 4rem;
+    }
+
+
+
     /* NAV BAR*/
-    
+
     nav {
         height: 15rem;
-        }
-        
-        .menu {
-            font-size: 5rem;
-            
-        }
-        
-        .titulo {
-            font-size: 8rem;
-        }
-        
-        .info {
-            height: 5rem;
-            font-size: 2.5rem;
-        }
-        
-        .icon-tabler-truck-delivery {
-            width: 30px;
-            height: 30px;
-        }
-        /* CONTAINER*/
-        
-        .grid-container {
-            padding: 10rem;
-        }
-        
-        /* FILTROS */
-        
-        .filtros h2 {
-            font-size: 8rem;
-        }
-        
-        .resultados {
-            font-size: 5rem;
-            margin-bottom: 3rem;
-        }
-        
-        .envio-full button {
-            font-size: 3rem;
-        }
-        
-        .filtros h3 {
-            font-size: 5rem;
-            margin-top: 7rem;
-        }
-        
-        .filtros li {
-            font-size: 2.5rem;
-            padding: 1rem 0 ;
-        }
-        
-        /* SHOP */
-        .ventas img {
-            width: 30rem;
-            height: 36rem;
-            padding-left: 4rem;
-        }
-        
-        .ventas .xtrenght {
-            width: 35rem;
-            height: 35rem;
-        }
-        
-        .shop h3 {
-            font-size: 5rem;
-        }
-        
-        .shop .new-price {
-            font-size: 4rem;
-        }
-        
-        .shop p {
-            font-size: 2.5rem;
-        }
-        
-        .formulario {
-            margin-bottom: 150rem;
-        }
+    }
+
+    .menu {
+        font-size: 5rem;
+
+    }
+
+    .titulo {
+        font-size: 8rem;
+    }
+
+    .info {
+        height: 5rem;
+        font-size: 2.5rem;
+    }
+
+    .icon-tabler-truck-delivery {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* CONTAINER*/
+
+    .grid-container {
+        padding: 10rem;
+    }
+
+    /* FILTROS */
+
+    .filtros h2 {
+        font-size: 8rem;
+    }
+
+    .resultados {
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .envio-full button {
+        font-size: 3rem;
+    }
+
+    .filtros h3 {
+        font-size: 5rem;
+        margin-top: 7rem;
+    }
+
+    .filtros li {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    /* SHOP */
+    .ventas img {
+        width: 30rem;
+        height: 36rem;
+        padding-left: 4rem;
+    }
+
+    .ventas .xtrenght {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .shop h3 {
+        font-size: 5rem;
+    }
+
+    .shop .new-price {
+        font-size: 4rem;
+    }
+
+    .shop p {
+        font-size: 2.5rem;
+    }
+
+    .formulario {
+        margin-bottom: 150rem;
+    }
 
 }
