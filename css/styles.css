@@ -919,6 +919,26 @@ label {
         margin-inline: 27%;
     }
 
+    .imagen-star-creatina {
+        margin-inline: 17%;
+        height: 40rem;
+        width: 30rem;
+        margin-bottom: 7rem;
+    }
+
+    .imagen-xtrenght-creatina {
+        margin-inline: 30%;
+        margin-bottom: 7rem;
+    }
+
+    .imagen-cafeina {
+        margin-inline: 20%;
+        margin-bottom: 7rem;
+        height: 40rem;
+        width: 30rem;
+    }
+        
+
     .imagen-producto {
         margin-top: 5rem;
     }
@@ -1297,6 +1317,22 @@ label {
         height: 40rem;
         margin-bottom: 5rem;
         margin-inline: 35%;
+    }
+
+    .imagen-star-creatina {
+        margin-inline: 25%;
+    }
+
+    .imagen-xtrenght-creatina {
+        margin-inline: 36%;
+        margin-bottom: 7rem;
+    }
+
+    .imagen-cafeina {
+        margin-inline: 30%;
+        margin-bottom: 7rem;
+        height: 40rem;
+        width: 30rem;
     }
 
     .section-productos {
