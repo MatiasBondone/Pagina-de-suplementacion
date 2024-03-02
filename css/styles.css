@@ -777,6 +777,7 @@ label {
         padding-right: 3rem;
         font-size: 1.8rem;
         font-weight: bold;
+        text-align: center;
     }
 
     .ayuda p {
@@ -1194,13 +1195,14 @@ label {
         padding-right: 3rem;
         font-size: 2.5rem;
         font-weight: bold;
+        text-align: center;
     }
 
     .ayuda p {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.8rem;
-
+        text-align: center;
     }
 
     .data {
